@@ -42,7 +42,7 @@
 //Modificación de propiedades
 /*9*/Portatil.modelo = "P345"; //Cambiar valor
 
-/*10*/
+/*10*/Concierto.cartelera.push("Guns N' Roses") //Añadir el nuevo valor con .push
 
 /*11*/Concierto.fecha = new Date();
 
@@ -102,7 +102,11 @@
 
 /*24*/Pantalla.dimensiones = "1920x1080";
 
-/*25*/
+/*25*/if (Led.encendido === true) {
+    Led.encendido = false
+} else {
+    Led.encendido = true
+}
 
 /*26*/Movil.temperatura = "20º"
 
